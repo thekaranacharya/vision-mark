@@ -1,6 +1,6 @@
 # a1: Image Processing and Recognition Basics
 ## Developers: 
-karachar(Karan Milind Acharya), marcskin(Marcus A Skinner), pchakila(Pranav Vijay Chakilam)
+Karan Milind Acharya, Marcus A Skinner, Pranav Vijay Chakilam
 
 # Introduction
 The goal of the grader is to inject the correct answers on the document, read the student answers, extract the correct answers, then grade the paper. For this to happen, we need some way to identify key points of the document. We started with exploring a couple different methods--including, Hough Transform and corner detection algorithms. But, complex methods like these are unreliable and even one mistake can cause significant malfunctions in the grader. Futhermore, we did not find them necessary since the document has a basic structure that makes the lines and corners evident, and we decided that we could leverage this structure to find the key points.
